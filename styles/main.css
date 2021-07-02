@@ -1,0 +1,152 @@
+body{
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+   
+}
+
+.nav-item{
+    text-decoration: none;
+    color: white;
+}
+
+.bg-image{
+    background: url('../assets/images/bg.png') no-repeat;
+    background-size: contain;
+    height: 900px;
+}
+
+.wrap{
+    background-color: #1A1F27; 
+    height: auto;
+    color: white;
+    padding: 2em 0em 2em 0em;
+}
+
+.wrapper{
+    background: rgba(0, 0, 0, 0.603) no-repeat;
+    height: 800px;
+}
+
+/* Register pages*/
+.info{
+    margin: 5em 13em 5em 13em ;
+}
+.grp{
+    display: inline-block;
+    margin: 0.5em 0em 3em 0em;
+}
+
+.grp input{
+    border: none;
+    margin-right: 2em;
+    background: rgba(0, 0, 0, 0);
+    border-bottom: solid 1px white;
+    outline: 0;
+    color: white;
+}
+
+.grp input::placeholder{
+    color: white;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    color: white;
+    margin: .5em;
+}
+
+.button{
+    width: 170px;
+    padding: 10px;
+    color: black;
+    background: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-weight: 700;
+}
+
+.erro{
+    color: rgb(184, 12, 12);
+    font-size: 14px;
+    position: relative;
+    margin: 2em;
+   
+}
+
+
+
+/* courses pages*/
+.user{
+    position: absolute;
+    top:2em;
+    right: 0;
+}
+
+.colu{
+    display: inline-block;
+    padding: .5em;
+}
+
+select{
+    padding: .1em;
+}
+.courseCode{
+    width: 90px;
+    height: 30px;;
+    font-weight: 500;
+}
+
+#courseDescrpt{
+    width: 600px;
+    height: 250px;
+}
+
+#sem #grade{
+    width: 100px;
+}
+
+/*Home page*/
+.lower{
+   background: url('../assets/images/personal.png') no-repeat;
+    background-size: contain;
+    height: 900px;
+    
+}
+
+.header{
+    background: black;
+    color: white;
+    width: 100%;
+    padding: 2em;
+}
+
+.cardo{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    width: 30%;
+    margin-top: 7em;
+    padding: 1em;
+    text-align: left;
+}
+
+.table,.table>th,.table>td{
+  
+    border: white solid 1px;
+    text-align: center;
+}
+.table{
+    width: 90%;
+} 
+
+.contact{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    margin-top: 330px;
+}
